@@ -241,7 +241,7 @@ function App() {
             <CssBaseline/>
             <Container>
             <Grid container spacing={2}>
-                <Grid item xs={2}>
+                <Grid item xs>
                         <FormControlLabel control={
                             <Switch onChange={() => {
                                 let darkModeOnNew = (!darkModeOn); //ToDo get browser setting?
@@ -249,13 +249,10 @@ function App() {
                                 setTheme(darkModeOnNew ? darkTheme : lightTheme);
                             }
                             }/>} label={"Dark mode"}/>
-
-                </Grid>
-                <Grid item xs={2}>
                 <Button type="Link" href="https://github.com/striezl/FinAdvisor" target="_blank" startIcon={<GitHub/>}> {t('Show on GitHub')}</Button>
                 </Grid>
-                <Grid item xs={8}>
-                    <h2>FinAdvisor v0.1 (alpha)</h2> {/*//ToDo get version dynamically*/}
+                <Grid item xs = {12}>
+                    <h2 style={{textAlign: "center"}}>FinAnalyzer v0.1 (alpha)</h2> {/*//ToDo get version dynamically*/}
                 </Grid>
                 <Grid item xs={12}>
                     <HorizontalLinearStepper activeStep={activeStep}
