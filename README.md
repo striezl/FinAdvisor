@@ -1,8 +1,13 @@
 # FinAdvisor
 
 An open source application for private financial management. 
-The app creates a comfortable overview of the user's asset and debt situation. 
-In addition, seven steps lead to a balanced distribution of assets. The set of rules for this is based on the investor's preferences and generally accepted principles of sound money management.
+The WebApp creates a comfortable overview of the asset and debt situation. 
+In addition, seven steps lead to a balanced distribution of assets. The set of rules for this is based on the investor's preferences and generally accepted principles of sound money management. For starters, the application focuses on the needs of investors in Germany.
+
+## Technical implementation
+
+The application is built purely with React. There is no backend yet, but it is possible to save the editing state via downloading and uploading a file
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
