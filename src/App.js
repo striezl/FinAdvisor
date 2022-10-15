@@ -13,7 +13,7 @@ import {
     FormControlLabel,
     Container,
     ThemeProvider,
-    createTheme
+    createTheme, Link
 } from "@mui/material";
 
 import {useState, useEffect} from "react";
@@ -26,6 +26,7 @@ import {FormSave} from "./FormSave";
 import {FormLoad} from "./FormLoad";
 import {Analysis} from "./Analysis";
 import Box from "@mui/material/Box";
+import {GitHub} from "@mui/icons-material";
 
 const darkTheme = createTheme({
     palette: {
@@ -240,7 +241,7 @@ function App() {
             <CssBaseline/>
             <Container>
             <Grid container spacing={2}>
-                <Grid item xs={4}>
+                <Grid item xs={2}>
                         <FormControlLabel control={
                             <Switch onChange={() => {
                                 let darkModeOnNew = (!darkModeOn); //ToDo get browser setting?
@@ -249,6 +250,9 @@ function App() {
                             }
                             }/>} label={"Dark mode"}/>
 
+                </Grid>
+                <Grid item xs={2}>
+                <Button type="Link" href="https://github.com/striezl/FinAdvisor" target="_blank" startIcon={<GitHub/>}> {t('Show on GitHub')}</Button>
                 </Grid>
                 <Grid item xs={8}>
                     <h2>FinAdvisor v0.1 (alpha)</h2> {/*//ToDo get version dynamically*/}

@@ -106,6 +106,9 @@ i18n
                     'The Riester pension can be interesting for you, if you fulfill on of the following criteria: Children (if entitled to child benefits) or high income. If you are married and there is no direct entitlement, you or your partner may be eligible for a contract as indirect beneficiary. The Riester contract that promises the highest share quota is "UniProfiRente Select with UniGlobal II". Which is good, because the value of the shares cannot fall below the sum of the payments and allowances received.':'Die Riester-Rente kann für Dich interessant sein, wenn Du eines der folgenden Kriterien erfüllst: Kinder (sofern kindergeldberechtigt) oder hohes Einkommen. Wenn Du verheiratet bist und kein unmittelbarer Anspruch besteht, kann für Dich oder Deinen Partner ein Vertrag als mittelbar Begünstigter in Frage kommen. Der Riester-Vertrag, der die höchste Aktienquote verspricht, ist die "UniProfiRente Select mit UniGlobal II". Das ist gut, denn der Wert der Anteile kann nicht unter die Summe der Einzahlungen und Zulagen fallen.',
                     'Check whether you are entitled to capital formation benefits from your employer and, in addition, to employee savings allowance and housing subsidy from the state.':'Prüfe, ob Du Anspruch auf vermögenswirksame Leistungen Deines Arbeitgebers und darüber hinaus auf Arbeitnehmersparzulage und Wohngeld vom Staat hast.',
                     'Print': 'Drucken',
+                    'Show on GitHub': 'Auf GitHub anzeigen',
+                    'lower': 'niedrigere',
+                    'higher': 'höhere'
                 }
             }
         },
