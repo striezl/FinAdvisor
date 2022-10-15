@@ -4,6 +4,10 @@ An open source application for private financial management.
 The WebApp creates a comfortable overview of the asset and debt situation. 
 In addition, seven steps lead to a balanced distribution of assets. The set of rules for this is based on the investor's preferences and generally accepted principles of sound money management. For starters, the application focuses on the needs of investors in Germany. Get a glimpse of the alpha version here: [https://monetenfm.de/finAnalysis/index.html](https://monetenfm.de/finAnalysis/index.html)
 
+## Community
+
+The goal is to work together to develop an application that anyone can easily use to get basic, understandable, proven, independent help with financial matters. Any input, technical, professional, legal, etc. is welcome! Feel free to send a pull request or open an issue.
+
 ## Technical implementation
 
 The application is built purely with React. There is no backend yet, but it is possible to save the editing state via downloading and uploading a file
