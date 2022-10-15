@@ -1,4 +1,4 @@
-# FinAdvisor
+# FinAnalyser
 
 An open source application for private financial management. 
 The WebApp creates a comfortable overview of the asset and debt situation. 
