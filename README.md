@@ -8,6 +8,9 @@ In addition, seven steps lead to a balanced distribution of assets. The set of r
 
 The application is built purely with React. There is no backend yet, but it is possible to save the editing state via downloading and uploading a file
 
+##Screenshot
+![Screenshot](https://github.com/striezl/FinAdvisor/blob/a734c0bc876ac18c76855d1d506058f83254a911/img/Screenshot.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
