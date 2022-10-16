@@ -1,4 +1,4 @@
-# FinAdvisor
+# FinAnalyser
 
 An open source application for private financial management. 
 The WebApp creates a comfortable overview of the asset and debt situation. 
@@ -10,7 +10,7 @@ The goal is to work together to develop an application that anyone can easily us
 
 ## Technical implementation
 
-The application is built purely with React. There is no backend yet, but it is possible to save the editing state via downloading and uploading a file
+The application is built purely with React. There is no backend yet, but it is possible to save the editing state via downloading and uploading a file.
 
 ## Screenshot
 ![Screenshot](https://github.com/striezl/FinAdvisor/blob/a734c0bc876ac18c76855d1d506058f83254a911/img/Screenshot.png)
