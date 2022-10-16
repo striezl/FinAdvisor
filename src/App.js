@@ -249,7 +249,7 @@ function App() {
                                 setTheme(darkModeOnNew ? darkTheme : lightTheme);
                             }
                             }/>} label={"Dark mode"}/>
-                <Button type="Link" href="https://github.com/striezl/FinAdvisor" target="_blank" startIcon={<GitHub/>}> {t('Show on GitHub')}</Button>
+                <Button type="Link" href="https://github.com/striezl/FinAnalyzer" target="_blank" startIcon={<GitHub/>}> {t('Show on GitHub')}</Button>
                 </Grid>
                 <Grid item xs = {12}>
                     <h2 style={{textAlign: "center"}}>FinAnalyzer v0.1 (alpha)</h2> {/*//ToDo get version dynamically*/}
